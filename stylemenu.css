@@ -1,0 +1,9 @@
+a:hover{
+    background-color:red;
+}
+a{  
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: white
+}

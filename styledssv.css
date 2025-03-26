@@ -1,0 +1,11 @@
+p{
+    background-color: rgb(224, 136, 85);
+    text-transform: capitalize;
+    border-style:  solid;
+    border-color: black ;
+    border-width:0px 0px 2px 0px ;
+}
+#tr1{
+    background-color: orange;
+    color: white;
+}

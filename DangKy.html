@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bài tập về nhà</title>
+        <meta charset="utf-8">
+        <style>
+            label{color: rgb(51, 167, 51);}
+        </style>
+    </head>
+   
+    <body>
+        <h2 align="center" style="color: rgb(144, 223, 144);">Phiếu đăng kí tham gia chương trình khuyến mại</h2>
+
+        <table border="1" style="border-collapse: collapse;background-color: rgb(155, 216, 155);" width="500px" align="center">
+            <tr>
+                <td><label for="name">Họ và tên</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Nguyễn Ngọc Quỳnh Nga" size="30"> </td>
+            </tr>
+            <tr>
+                <td><label for="dchi">Địa chỉ</label></td>
+                <td><input type="text" id="dchi" name="dchi" placeholder="2Bia Hùng Vương, Q10" size="25"> </td>
+            </tr>
+            <tr>
+                <td><label for="sdt">Điện thoại</label></td>
+                <td><input type="text" id="sdt" name="sdt" placeholder="0909097506" size="20"> </td>
+            </tr>
+            <tr>
+                <td><label for="gt">Phái</label></td>
+                <td><input type="radio" id="gt" name="gt" checked>Nam
+                    <input type="radio" id="gt" name="gt" checked>Nữ</td>
+            </tr>
+            <tr>
+                <td><label for="nn">Nghề nghiệp</label></td>
+                <td><select name="nn" id="nn">
+                    <option value="Giáo viên">Giáo viên</option>
+                    <option value="Bác sĩ">Bác sĩ</option>
+                    <option value="Kĩ sư">Kĩ sư</option>
+                    <option value="Công nhân">Công nhân</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="chon">Chọn sản phẩm tham gia</label></td>
+                <td><select  name="chon" id="chon"multiple>
+                    <option selected value="Kem đánh răng">Kem đánh răng</option>
+                    <option value="Bột giặt">Bột giặt</option>
+                    <option selected value="Dầu gội đầu">Dầu gội đầu</option>
+                    <option value="Sữa tắm">Sữa tắm</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="num">Số người dự đoán tham gia</label></td>
+                <td><input type="text" id="num" name="num" placeholder="250000" size="10"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">Đồng ý</button></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3 - Định dạng văn bản</title>
+    <style>
+        /* Định dạng tiêu đề */
+        h2 {
+            color: #175e1781; /* Màu xanh cây (lỗi trong đề: #FF0000 là đỏ, nhưng yêu cầu là xanh cây) */
+            text-align: center; /* Căn giữa tiêu đề */
+            margin-top: 20px; /* Khoảng cách trên */
+        }
+
+        /* Định dạng đoạn văn */
+        p {
+            text-align: center; /* Căn giữa đoạn văn */
+            margin: 10px 0; /* Khoảng cách trên dưới */
+        }
+
+        /* Định dạng công thức toán học và biểu thức */
+        .math-formula {
+            color: #FF0000; /* Màu đỏ */
+        }
+
+        /* Định dạng đoạn code */
+        pre {
+            background-color: #CCCCCC; /* Nền xám */
+            color: #0000CC; /* Chữ xanh dương đậm */
+            width: fit-content; /* Chiều rộng tự động theo nội dung */
+            margin: 20px auto; /* Căn giữa */
+            padding: 10px; /* Khoảng cách bên trong */
+            font-family: monospace; /* Font chữ kiểu code */
+        }
+
+        /* Định dạng button */
+        button {
+            display: block; /* Để căn giữa */
+            margin: 10px auto; /* Căn giữa button */
+            padding: 5px 20px; /* Khoảng cách bên trong */
+            background-color: #D3D3D3; /* Màu xám nhạt giống trong ảnh */
+            cursor: pointer; /* Con trỏ tay khi hover */
+        }
+    </style>
+</head>
+<body>
+    <h2>Định dạng văn bản</h2>
+    <p>
+        Học học: Nước H<sub>2</sub>O; Axit Sunfuric: H<sub>2</sub>SO<sub>4</sub><br>
+        Toán học: Phương trình bậc 2: <span class="math-formula">ax<sup>2</sup> + bx + c = 0</span><br>
+        Tìm học: Vòng lặp For:
+    </p>
+    <pre>
+for i = 0 to 10
+    Tong = Tong + i
+next
+    </pre>
+    <button>Next</button>
+</body>
+</html>
