@@ -78,11 +78,16 @@ section .content .warm_bulb{
 section .content .warm_fan{
     display: flex;
 }
+section .content img{
+    width: 20%;
+}
 section .content .warm_bulb div{
     margin: 20px;
+    width: 80%;
 }
 section .content .warm_fan div{
     margin: 20px;
+    width: 80%;
 }
 footer{
     text-align: center;
